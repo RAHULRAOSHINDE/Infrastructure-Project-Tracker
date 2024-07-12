@@ -89,3 +89,10 @@ jupyter lab
     • It triggers the execution of scraping process on a regular basis  depending on frequency of data updates required
     • Also it can used to schedule the execution of multiple scripts to maximize the resource utilization and reduce processing time
 
+
+### Note
+    
+    * In cred.cnf , update user,localhost,password with appropriate credentials
+
+    * In cred.env , update DB_USER,DB_PASSWORD,DB_LOCALHOST,SLACK_BOT_TOKEN with appropriate credentials
+
