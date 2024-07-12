@@ -1,5 +1,5 @@
 
-# Automated Data Collection and Standardization for Infrastructure Projects and Tenders
+# Infrastructure-Project-Tracker
 
 This project aims to automate the extraction, standardization, and storage of data related to construction and infrastructure projects and tenders in the state of California. Using Selenium WebDriver, the project extracts data from various websites. Python scripts are employed for parsing, cleaning, and standardizing the scraped data. The standardized data is then stored in a relational database with a Change Data Capture (CDC) mechanism that logs every new insertion for tracking purposes. Scheduled tasks are implemented using cron to automate data scraping, standardization, and updates at regular intervals. Additionally, Slack notifications are sent for new projects
 
