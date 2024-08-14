@@ -1,0 +1,48 @@
+Methodologies
+
+Research and Data Sourcing 
+
+Research process:
+
+    • Conducted research to identify data sources related to construction and infrastructure projects and tenders in California.
+    • Compiled a list of data sources based on the research findings.
+    • Verified the trustworthiness of the data sources to filter out unreliable sources.
+    • Prioritized data sources with accurate and up-to-date information.
+
+
+Data Extraction and Standardization
+
+Approach to Build Data Products
+
+Data Scraping
+
+    • The data was scraped using Selenium and Python, where Selenium was utilized to navigate web pages and and Python scripts were used to extract the information from sources
+   
+Standardization of Scraped Data
+
+    • After the data is scraped,it needs to be standardized .This involved steps such as 
+    • Parsing and cleaning the scraped data to ensure consistency and accuracy
+    • Handling missing values and formatting dates
+    • Mapping scraped data fields to corresponding fields 
+    • Converting it into a structured format
+
+Automating Data Extraction
+
+    • By desgining  a automated workflow using cron jobs to periodically scrape data from multiple sources ,perform standardization processes and update data products
+
+
+
+Automation and Continuous Updating
+
+Continuous Data Updates
+
+    • By scheduling scraping jobs using cron ,such that these jobs runs at a predefined time to start the scraping of data.
+    • Implementing CDC mechanism in the database to track new insertions and changes efficiently.
+    • Using Slack to send real-time notifications about new projects.
+    • By maintaining a proper version of scraped data helps to rollback to previous versions incase of data corruptions or errors 
+
+Use of Cron Jobs
+
+    • Cron jobs can be utilized to orchestrate the execution of scraping and standardization of scripts at predefined intervals
+    • It triggers the execution of scraping process on a regular basis  depending on frequency of data updates required
+    • Also it can used to schedule the execution of multiple scripts to maximize the resource utilization and reduce processing time
