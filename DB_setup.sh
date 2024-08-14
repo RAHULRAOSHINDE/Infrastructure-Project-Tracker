@@ -1,8 +1,6 @@
 #!/bin/bash
 
-#To execute this script,run this below command 
 
-./DB_setup.sh >> /root/Desktop/infra/infra.logs 2>&1
 
 
 #Defining paths to create database
