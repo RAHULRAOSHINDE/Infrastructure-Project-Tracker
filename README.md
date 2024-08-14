@@ -94,5 +94,5 @@ jupyter lab
     
     * In cred.cnf , update user,localhost,password with appropriate credentials
 
-    * In cred.env , update DB_USER,DB_PASSWORD,DB_LOCALHOST,SLACK_BOT_TOKEN with appropriate credentials
+    * In cred.env , update DB_USER,DB_PASSWORD,DB_LOCALHOST,SLACK_BOT_TOKEN,CHANNEL_NAME,CHANNEL_ID,USER with appropriate credentials
 
